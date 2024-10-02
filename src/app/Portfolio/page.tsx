@@ -1,11 +1,27 @@
-import Link from "next/link";
+import Image from "next/image";
+import Header from"../Components/Header"
 
 
 export default function Portfolio(){
     return(
         <div>
-            <h1>This is my Portfolio page</h1>
+            <Header>
+
+            </Header>
+            <h1>This is my Portfolio Page</h1>
+            <section className="contact">
             
-            </div>
+            
+            <div className="artificialpic">
+                <Image src="/artificial.png" alt="portfolio" height={400} width={400}/>
+
+                
+</div>
+
+</section>
+
+</div>
+            
+            
     )
 }
